@@ -1,0 +1,67 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #203225;
+}
+
+.counter-container {
+    text-align: center;
+    background-color: #77877b;
+    color: rgb(6, 51, 31);
+    font-size: 30px;
+    padding: 40px;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.shake {
+    animation: shake 0.5s ease-in-out;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 20px;
+    color: #77877b;
+    background-color: #203225;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #42564c;
+}
+
+p {
+    color: rgb(6, 51, 31);
+    font-weight: bold;
+}
